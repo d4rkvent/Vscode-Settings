@@ -1,0 +1,60 @@
+{
+    // "workbench.settings.useSplitJSON": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Fira Code Retina, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 24,
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.colorTheme": "Atom One Dark",
+    // "unibeautify.defaultConfig": "C:/Users/lokes/.unibeautifyrc.yml",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#8252be",
+        "statusBar.foreground": "#eeffff",
+        "titleBar.activeBackground": "#282b3c",
+        "titleBar.activeForeground": "#eeefff"
+    },
+    /** PHP Settings */
+    "php.suggest.basic": false,
+    "editor.snippetSuggestions": "top",
+    "php.executablePath": "C:\\xampp\\php\\php.exe",
+    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+    "php.validate.enable": true,
+    "php.validate.run": "onType",
+    "composer.executablePath": "C:\\Composer\\composer.bat",
+    "editor.minimap.enabled": true,
+    "breadcrumbs.enabled": false,
+    "editor.renderControlCharacters": false,
+    // PHPCS And PHPCBF DEV ENV
+    "phpcbf.enable": true,
+    "phpcbf.executablePath": "C:\\Users\\lokes\\wpcs\\vendor\\bin\\phpcbf.bat",
+    "phpcbf.documentFormattingProvider": true,
+    "phpcbf.onsave": false,
+    "phpcbf.standard": "WordPress-Core",
+    "phpcs.executablePath": "C:\\Users\\lokes\\wpcs\\vendor\\bin\\phpcs.bat",
+    "phpcs.standard": "WordPress-Core",
+    /** File Exlude*/
+    "search.exclude": {
+        "**/.git": true,
+        "**/.nuxt": true,
+        "**/build": true,
+        "**/data": true,
+        "**/dist": true,
+        "**/env": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "Glavin001.unibeautify-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "Glavin001.unibeautify-vscode"
+    },
+    "workbench.settings.useSplitJSON": true,
+    "files.associations": {
+        "*.module": "php"
+    },
+    "intelephense.diagnostics.undefinedConstants": false,
+    "intelephense.diagnostics.undefinedFunctions": false,
+    "editor.wordWrap": "on",
+}
