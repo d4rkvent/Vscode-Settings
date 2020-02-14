@@ -12,11 +12,11 @@
 #### Extensions
 
     Atom Dark Theme
-    composer
-    intellisense for css class names
+    Composer
+    Intellisense for css class names
     Material icon theme
     Path Intellisense
     PHP Intelephense
-    sublime text keymap and settings
-    prettier
+    Sublime text keymap and settings
+    Prettier
             
